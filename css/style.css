@@ -1,0 +1,432 @@
+* {
+    box-sizing: border-box;
+}
+
+a {
+    color: #b4b4b4;
+    text-decoration: none;
+    display: inline-block;
+
+}
+
+body {
+    font-weight: 300;
+    font-family: 'Ubuntu', sans-serif;
+    line-height: 24px;
+    color: #b4b4b4;
+    font-size: 14px;
+    background-color: #241e20;
+}
+
+.container {
+    width: 1520px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.header {
+    background: url(../img/bg-lamp1.jpg) no-repeat center;
+    height: 100em;
+
+}
+
+
+.header__inner {
+    text-align: center;
+    padding-top: 75px;
+}
+
+.header__text {
+    width: 530px;
+    margin: 0 auto;
+
+}
+
+
+.header__title {
+    font-family: 'Playfair Display SC', serif;
+    font-weight: 400;
+    font-size: 60px;
+    color: #b69b67;
+    border-top: 1px solid #b69b67;
+    width: 400px;
+    padding: 15px 0 25px;
+    margin: 0 auto;
+}
+
+.header__subtitle {
+    font-size: 30px;
+    text-transform: uppercase;
+    text-align: right;
+}
+
+.btn__menu {
+    width: 83px;
+    height: 83px;
+    border: 1px solid #454545;
+    padding: 20px;margin-left: auto;
+}
+
+.btn__menu div {
+    height: 5px;
+    background-color: #b4b4b4;
+    margin-bottom: 10px;
+}
+
+.menu__items {
+    display: flex;
+    justify-content: space-between
+}
+.menu__items li {
+    padding: 30px 20px;
+}
+
+.menu__items a {
+    font-weight: 300;
+    font-size: 20px;
+
+}
+.header__content {
+    display: flex;
+    justify-content: center;
+}
+
+
+.content__text {
+    padding-top: 280px;
+    font-size: 60px;
+    text-transform: uppercase;
+    line-height: normal;
+    color: #ffbb72;
+}
+
+
+.services__title {
+    font-family: 'Playfair Display SC', serif;
+    font-weight: 400;
+    font-size: 60px;
+    padding: 15px 0 100px;
+    text-align: center;
+
+}
+
+.service__inner {
+    display: block;
+    /* justify-content: space-between; */
+}
+
+.services__content-title {
+    font-family: 'Playfair Display SC', serif;
+    font-weight: 400;
+    font-size: 60px;
+    padding: 15px 0 100px;
+    text-align: center;
+    padding-top: 50px;
+}
+
+/* .services__menu {
+    width: 460px;
+} */
+
+.services__menu-items {
+    margin: 0 auto;
+    line-height: 100px;
+    font-size: 30px;
+    list-style: none;
+    text-transform: capitalize;
+}
+
+.services__content1 {
+    margin: 50px auto;
+    width: 822px;
+    height: 640px;
+    background: url(../img/services-img1.png) no-repeat;
+    padding: 0 50px;
+    border-radius: 20px;
+}
+
+.services__content2 {
+    margin: 50px auto;
+    width: 822px;
+    height: 640px;
+    background: url(../img/services-img2.png) no-repeat;
+    padding: 0 50px;
+    border-radius: 20px;
+
+}
+
+.services__content3 {
+    margin: 50px auto;
+    width: 822px;
+    height: 640px;
+    background: url(../img/services-img3.png) no-repeat;
+    padding: 0 50px;
+    border-radius: 20px;
+}
+
+.services__content4 {
+    margin: 50px auto;
+    width: 822px;
+    height: 640px;
+    background: url(../img/services-img4.png) no-repeat;
+    padding: 0 50px;
+    border-radius: 20px;
+}
+
+
+.services__content-text {
+    width: 500px;
+    height: auto;
+    font-size: 20px;
+    line-height: auto;
+    padding: 15px;
+    background-color: #1c1200c7;
+    border-radius: 10px;
+}
+
+.services__content-text span {
+    color: #b69b67;
+}
+
+.categories__title {
+
+    font-family: 'Playfair Display SC', serif;
+    font-weight: 400;
+    font-size: 60px;
+    padding: 200px 0 100px;
+    text-align: center;
+}
+
+.items {
+    display: flex;
+}
+
+.categories-item1 {
+    background-image: url(../img/portfolio-img1.png);
+}
+
+.categories-item2 {
+    background-image: url(../img/portfolio-img2.png);
+}
+
+.categories-item3 {
+    background-image: url(../img/portfolio-img3.png);
+}
+
+.categories-item4 {
+    background-image: url(../img/portfolio-img4.png);
+}
+
+.categories-item {
+    width: 745px;
+    height: 270px;
+    margin: 30px;
+}
+
+.item__content {
+    color: #303030;
+    width: 358px;
+    height: 100%;
+    padding: 25px;
+    background-color: #b69b67;
+    margin-left: auto;
+
+}
+
+.item__title {
+    line-height: 40px;
+    border-bottom: 1px solid #303030;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 400;
+    font-size: 30px;
+    text-transform: uppercase;
+}
+
+.item__descr {
+    line-height: 21px;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 500;
+    font-size: 19px;
+    padding-top: 70px;
+}
+
+.item__btn {
+    text-align: right;
+}
+
+.item__btn a {
+    color: #303030;
+    /* text-align: right; */
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 300;
+    font-size: 19px;
+    font-style: italic;
+    text-transform: capitalize;
+
+}
+
+.FeedbacksContact {
+    margin-bottom: 115px;
+}
+
+.FeedbacksContact__inner {
+    display: flex;
+    justify-content: space-between;
+}
+
+.Feedbacks {
+    width: 750px;
+}
+
+.Feedbacks__title {
+    font-family: 'Playfair Display SC', serif;
+    font-weight: 400;
+    font-size: 60px;
+    padding: 15px 0 100px;
+    text-align: center;
+}
+
+.item__box {
+    display: flex;
+    border-bottom: 1px solid #b69b67;
+    padding-bottom: 15px;
+}
+
+.Feedbacks-item {
+    margin: 30px 0;
+}
+
+.Feedbacks__text {
+    font-weight: 300;
+    font-size: 30px;
+    line-height: 33px;
+    padding: 0 20px;
+}
+
+.Feedbacks__name {
+    font-weight: 300;
+    font-size: 30px;
+    padding: 0 20px;
+    color: #b69b67;
+    text-transform: capitalize;
+    text-align: right;
+    padding: 10px;
+}
+
+.Feedbacks__btn {
+    font-weight: 300;
+    font-size: 15px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+
+.ContactUs {
+    width: 470px;
+
+}
+
+.ContactUs input,
+.ContactUs textarea {
+    border-radius: 5px;
+    padding: 0 12px;
+    margin: 25px 0;
+    border: 1px solid rgba(255, 255, 255, .05);
+    background-color: transparent;
+    height: 70px;
+    display: block;
+    width: 100%;
+    color: #4c4c4c;
+    font-weight: 300;
+    font-size: 30px;
+    line-height: 100px;
+    font-size: 11px;
+
+}
+
+.ContactUs input::placeholder,
+.ContactUs textarea::placeholder {
+    color: #4c4b4b;
+    font-weight: 300;
+    font-size: 30px;
+}
+
+.ContactUs textarea {
+    padding: 12px;
+    height: 205px;
+    resize: none;
+    font-size: 30px;
+    margin-bottom: 40px;
+}
+
+.ContactUs__title {
+    font-family: 'Playfair Display SC', serif;
+    font-weight: 400;
+    font-size: 60px;
+    padding: 15px 0 100px;
+    text-align: center;
+}
+
+.ContactUs button {
+    background-color: #b69b67;
+    color: #343434;
+    padding: 23px 70px;
+    border-radius: 10px;
+    font-weight: 300;
+    font-size: 30px;
+    border: none;
+    text-transform: uppercase;
+}
+
+.contacts {
+    margin-bottom: 100px;
+}
+
+.contacts__title {
+    font-family: 'Playfair Display SC', serif;
+    font-weight: 400;
+    font-size: 60px;
+    padding: 15px 0 100px;
+    text-align: center;
+}
+
+.contacts__inner {
+    display: flex;
+    justify-content: space-between;
+}
+
+.title {
+    font-weight: 300;
+    font-size: 30px;
+    color: #b69b67;
+    padding: 15px 0 25px;
+    text-transform: uppercase;
+    width: 100px;
+    margin: 0 auto;
+}
+
+.descr {
+    font-size: 23px;
+    font-weight: 300;
+    text-align: center;
+    padding: 10px 0;
+}
+
+.footer-menu {
+    padding-bottom: 50px;
+}
+
+.footer-menu__items {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-menu__items li {
+    padding: 0 25px;
+}
+
+.footer-menu__items a {
+    font-weight: 300;
+    font-size: 20px;
+
+}
