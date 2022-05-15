@@ -99,19 +99,19 @@
 
     }
 
-    .items {
-        display: block;
+    .categories__items {
+        display: flex;
     }
 
     .categories-item {
         width: auto;
-        margin: 0;
+        margin: 20px 0;
     }
 
     .item__content {
         color: #dadada;
         background-color: #b69b676e;
-        margin: 50px 0;
+        
     }
 
     .item__title {
